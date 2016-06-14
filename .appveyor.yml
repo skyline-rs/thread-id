@@ -10,8 +10,12 @@ environment:
     - target: 1.9.0-i686-pc-windows-msvc
     - target: beta-x86_64-pc-windows-msvc
     - target: beta-i686-pc-windows-msvc
+    - target: beta-x86_64-pc-windows-gnu
+    - target: beta-i686-pc-windows-gnu
     - target: nightly-x86_64-pc-windows-msvc
     - target: nightly-i686-pc-windows-msvc
+    - target: nightly-x86_64-pc-windows-gnu
+    - target: nightly-i686-pc-windows-gnu
 
 install:
   # Download the Rust and Cargo installer.
