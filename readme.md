@@ -8,8 +8,8 @@ Get a unique ID for the current thread in Rust.
 [![Documentation][docs-img]][docs]
 
 For diagnostics and debugging it can often be useful to get an ID that is
-different for every thread. The standard library does not expose a way to do
-that, hence this crate.
+different for every thread. [Until Rust 1.14][stdlib-pr], the standard library
+did not expose a way to do that, hence this crate.
 
 Example
 -------
@@ -39,9 +39,10 @@ to your copyright notice.
 [tr]:        https://travis-ci.org/ruuda/thread-id
 [av-img]:    https://ci.appveyor.com/api/projects/status/a6ccbm3x4fgi6wku?svg=true
 [av]:        https://ci.appveyor.com/project/ruuda/thread-id
-[crate-img]: http://img.shields.io/crates/v/thread-id.svg
+[crate-img]: https://img.shields.io/crates/v/thread-id.svg
 [crate]:     https://crates.io/crates/thread-id
-[docs-img]:  http://img.shields.io/badge/docs-online-blue.svg
+[docs-img]:  https://img.shields.io/badge/docs-online-blue.svg
 [docs]:      https://docs.rs/thread-id
+[stdlib-pr]: https://github.com/rust-lang/rust/pull/36341
 [apache2]:   https://www.apache.org/licenses/LICENSE-2.0
 [except]:    https://www.gnu.org/licenses/gpl-faq.html#GPLIncompatibleLibs
