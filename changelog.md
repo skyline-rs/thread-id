@@ -1,3 +1,12 @@
+# v3.2.0
+
+Released 2017-06-26.
+
+ * Add support for the Redox operating system.
+ * Ensures compatibility with Rust 1.8.0 through 1.18.0.
+
+Thanks to Ian Douglas Scott for contributing to this release.
+
 # v3.1.0
 
 Released 2017-05-13.
