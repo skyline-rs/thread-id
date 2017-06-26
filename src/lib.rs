@@ -56,10 +56,10 @@ fn get_internal() -> usize {
     unsafe { kernel32::GetCurrentThreadId() as usize }
 }
 
-// Each thread has a separate pid on Redox
 #[cfg(target_os = "redox")]
 #[inline]
 fn get_internal() -> usize {
+    // Each thread has a separate pid on Redox.
     syscall::getpid().unwrap()
 }
 
