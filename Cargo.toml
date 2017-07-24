@@ -9,6 +9,10 @@ description = "Get a unique thread ID"
 repository = "https://github.com/ruuda/thread-id"
 documentation = "https://docs.rs/thread-id"
 
+[badges]
+travis-ci = { repository = "ruuda/thread-id" }
+appveyor = { repository = "ruuda/thread-id" }
+
 [target.'cfg(unix)'.dependencies]
 libc = "0.2.6"
 
