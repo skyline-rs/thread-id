@@ -29,7 +29,7 @@
 extern crate libc;
 
 #[cfg(windows)]
-extern crate kernel32;
+extern crate winapi;
 
 #[cfg(target_os = "redox")]
 extern crate syscall;
@@ -53,7 +53,7 @@ fn get_internal() -> usize {
 #[cfg(windows)]
 #[inline]
 fn get_internal() -> usize {
-    unsafe { kernel32::GetCurrentThreadId() as usize }
+    unsafe { winapi::um::processthreadsapi::GetCurrentThreadId() as usize }
 }
 
 #[cfg(target_os = "redox")]
