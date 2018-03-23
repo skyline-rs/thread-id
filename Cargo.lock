@@ -1,6 +1,6 @@
 [root]
 name = "thread-id"
-version = "3.2.0"
+version = "3.3.0"
 dependencies = [
  "libc 0.2.22 (registry+https://github.com/rust-lang/crates.io-index)",
  "redox_syscall 0.1.18 (registry+https://github.com/rust-lang/crates.io-index)",
