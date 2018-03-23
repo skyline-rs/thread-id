@@ -1,3 +1,13 @@
+# v3.3.0
+
+Released 2018-03-23.
+
+ * Bump `winapi` dependency to v0.3.
+ * Add CI badges to crate metadata.
+ * Ensures compatibility with Rust 1.8.0 through 1.24.0.
+
+Thanks to Martin Geisler and Bastien Orivel for contributing to this release.
+
 # v3.2.0
 
 Released 2017-06-26.
