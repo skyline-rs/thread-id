@@ -16,11 +16,13 @@
 //! use std::thread;
 //! use thread_id;
 //!
-//! thread::spawn(move || {
+//! let handle = thread::spawn(move || {
 //!     println!("spawned thread has id {}", thread_id::get());
 //! });
 //!
 //! println!("main thread has id {}", thread_id::get());
+//!
+//! handle.join().unwrap();
 //! ```
 
 #![warn(missing_docs)]
