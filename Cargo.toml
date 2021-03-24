@@ -20,4 +20,4 @@ libc = "0.2.6"
 winapi = { version = "0.3", features = ["processthreadsapi"] }
 
 [target.'cfg(target_os = "redox")'.dependencies]
-redox_syscall = "0.1"
+redox_syscall = "0.2"
