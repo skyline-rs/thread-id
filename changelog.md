@@ -1,3 +1,18 @@
+# v4.0.0
+
+Released 2021-03-24.
+
+**Compatibility**:
+
+ * The minimum supported Rust version is now 1.34.2.
+
+Changes:
+
+ * Bump `redox_syscall` dependency to v0.2.
+ * Ensures compatibility with Rust 1.34.2 through 1.50.0.
+
+Thanks to zonyitoo for contributing to this release.
+
 # v3.3.0
 
 Released 2018-03-23.

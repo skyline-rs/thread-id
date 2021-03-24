@@ -44,8 +44,8 @@ dual licensed as above, without any additional terms or conditions.
 
 [tr-img]:    https://travis-ci.org/ruuda/thread-id.svg?branch=master
 [tr]:        https://travis-ci.org/ruuda/thread-id
-[av-img]:    https://ci.appveyor.com/api/projects/status/a6ccbm3x4fgi6wku?svg=true
-[av]:        https://ci.appveyor.com/project/ruuda/thread-id
+[av-img]:    https://ci.appveyor.com/api/projects/status/06804yxh55p41xl2?svg=true
+[av]:        https://ci.appveyor.com/project/ruuda/thread-id-y5v5o
 [crate-img]: https://img.shields.io/crates/v/thread-id.svg
 [crate]:     https://crates.io/crates/thread-id
 [docs-img]:  https://img.shields.io/badge/docs-online-blue.svg
