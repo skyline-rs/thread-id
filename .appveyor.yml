@@ -1,15 +1,12 @@
 environment:
   matrix:
-    # Test every fourth release since the minimum supported version, to not
-    # waste too many resources. The list is already quite long.
-    - target: 1.8.0-x86_64-pc-windows-msvc
-    - target: 1.8.0-i686-pc-windows-msvc
-    - target: 1.12.0-x86_64-pc-windows-msvc
-    - target: 1.12.0-i686-pc-windows-msvc
-    - target: 1.16.0-x86_64-pc-windows-msvc
-    - target: 1.16.0-i686-pc-windows-msvc
-    - target: 1.20.0-x86_64-pc-windows-msvc
-    - target: 1.20.0-i686-pc-windows-msvc
+    # Test the minimum supported version, the current version at the time of
+    # writing, and the moving targets beta and nightly, but not every single
+    # version in between.
+    - target: 1.34.2-x86_64-pc-windows-msvc
+    - target: 1.34.2-i686-pc-windows-msvc
+    - target: 1.50.0-x86_64-pc-windows-msvc
+    - target: 1.50.0-i686-pc-windows-msvc
     - target: beta-x86_64-pc-windows-msvc
     - target: beta-i686-pc-windows-msvc
     - target: beta-x86_64-pc-windows-gnu
