@@ -26,6 +26,7 @@
 //! ```
 
 #![warn(missing_docs)]
+#![feature(thread_id_value)]
 
 #[cfg(unix)]
 extern crate libc;
@@ -44,6 +45,11 @@ extern crate syscall;
 #[inline]
 pub fn get() -> usize {
     get_internal()
+}
+
+#[cfg(target_os = "switch")]
+fn get_internal() -> usize {
+    std::thread::current().id().as_u64().get() as usize
 }
 
 #[cfg(unix)]
